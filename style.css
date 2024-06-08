@@ -1,0 +1,161 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+}
+
+
+.img{
+    background: url(https://www.utec.edu.sv/assets/img/slides/290424/3.jpg) no-repeat;
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #56070C;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card .contenido{
+    padding: 15px;
+    text-align: left;
+}
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    background: #000;
+    
+    
+}
+
+.card .contenido a:hover{
+    background: gray;
+    color: #fff;
+}
+
+.imagen{
+    background: url(imagen/banner.jpg) no-repeat;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.d-block w-100{
+    width: 10%;
+    height: 10vh;
+    background-size: contain;
+
+
+}
+
+.carta{
+    width: 80%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #56070C;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:default;
+    transition: all 400ms ease;
+}
+
+.dat0{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    font-weight: 900vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-size-adjust:40px;
+
+}
+
+.datA{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    font-weight: 900vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-size-adjust:40px;
+}
+
+.card-titles{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25PX;
+    color: #56070C;
+}
+
+.card-texts{
+    text-decoration: none;
+    text-align: left;
+    font-size: 12px;
+    color: black;
+}
+
+.cardt{
+    width: 30%;
+    height: 60vh;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: whitesmoke;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:default;
+}
+
+.card-title{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25PX;
+    color: white;
+}
+
+.container-fluid{
+    background: #56070C;
+   
+}
+
+.nav-item{
+    background: #56070C;
+    text-align: left;
+    
+
+}
+
+.nav-link{
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-brand{
+    text-align: right;
+    
+}
+
+
